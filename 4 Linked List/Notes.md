@@ -3,8 +3,11 @@
 ## 📘 => LinkedList :-
 
 -> LinkedList is an implementation class of List interface which is present in java.util package.
--> Syntax : public class LinkedList extends AbstractSequentialList implements List, Deque, Cloneable, Serializable { - }
+
+-> Syntax : public class LinkedList extends AbstractSequentialList implements List, Deque, Cloneable, Serializable { - }.
+
 -> The underline data structure of LinkedList is Double Linked List or Circular Linked List.
+
 -> LinkedList was introduced in JDK 1.2 version.
 
 ![alt text](Diagram.png)
@@ -69,4 +72,5 @@
     LinkedList is good in case of insertion and deletion operations.
 
 5.  ArrayList is worst in case of insertion or deletion operations.
+
     LinkedList is worst in case of retrieval operations.
