@@ -1,0 +1,73 @@
+=> LinkedHashSet, SortedSet, NavigableSet in Java
+
+=> LinkedHashSet :-
+-> LinkedHashSet is the child class of HashSet which is present in java.util package
+-> Syntax : public class LinkedHashSet extends HashSet implements Set, Cloneable, Serializable { - }
+-> The underline data structure of LinkedHashSet is "Hashtable + LinkedList"
+-> LinkedHashSet was introduced in JDK 1.4 version
+
+-> Properties of LinkedHashSet :-
+= All properties of LinkedHashSet is same as HashSet except LinkedHashSet follows the insertion order.
+
+-> Constructors of LinkedHashSet :-
+= same constructors as HashSet
+
+-> Methods of LinkedHashSet :-
+= Same methods as HashSet.
+
+-> When we should use LinkedHashSet :-
+= If we have to create cache based applications then we can use LinkedHashSet.
+
+-> Difference between HashSet & LinkedHashSet :-
+1.  HashSet was introduced in JDK 1.2 version
+    LinkedHashSet was introduced in J2SE 1.4 version
+2.  HashSet does not follow the insertion order
+    LinkedHashSet follows the insertion order
+3.  HashSet underline data structure is "Hashtable"
+    LinkedHashSet underline data structure is "Hashtable + LinkedList"
+
+-----------------------------------------------------------------------------------------------------------------------
+
+=> SortedSet :-
+-> SortedSet is a child interface of Set interface which is present in java.util package.
+-> Syntax : public interface SortedSet extends Set { - }.
+-> SortedSet was introduced in JDK 1.2 version.
+
+-> Properties of SortedSet :-
+1. SortedSet is not an index based data structure.
+2. SortedSet does not follows the insertion order.
+3. SortedSet follows the sorting order.
+4. SortedSet can store same data types or homogeneous elements. If we provide different data type element if will provide 
+    exception i.e. java.lang.ClassCastException.
+5. SortedSet cannot store the duplicate elements.
+6. We should not store null value in SortedSet because SortedSet follows the sorting order so while comparing the elements 
+    with null value, it will provide the java.lang.NullPointerException.
+7. SortedSet allows Comparable objects bydefault, but if we insert non-comparable objects, then it will provide an 
+    exception i.e. java.lang.ClassCastException.
+8. SortedSet is non-synchronized collection.
+
+-> Methods of SortedSet :-
+1. Object first();
+2. Object last();
+3. SortedSet headSet(Object toElement);
+4. SortedSet tailSet(Object fromElement);
+5. SortedSet subSet(Object fromElement, Object toElement);
+
+-----------------------------------------------------------------------------------------------------------------------
+
+=> NavigableSet :-
+-> NavigableSet is the child interface of SortedSet interface which is present in java.util package.
+-> Syntax : public interface NavigableSet extends SortedSet { - }.
+-> NavigableSet was introduced in Java SE 6 version.
+
+-> Properties of NavigableSet :-
+= NavigableSet has the same properties as that of SortedSet but it provides some extra navigable methods.
+
+-> Methods :
+1. public NavigableSet descendingSet()
+2. public Object ceiling(Object obj)
+3. public Object higher(Object obj)
+4. public Object floor(Object obj)
+5. public Object lower(Object obj)
+6. public Object pollFirst()
+7. public Object pollLast()
