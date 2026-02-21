@@ -19,6 +19,9 @@ public class LinkedHashSet extends HashSet implements Set, Cloneable, Serializab
 ### 🕰️ Introduced In
 - **JDK 1.4**
 
+![alt text](LinkedHashSet1.png)
+
+
 ### ✨ Properties
 - All properties are the same as **HashSet**
 - ✅ Maintains **insertion order**
@@ -35,6 +38,9 @@ public class LinkedHashSet extends HashSet implements Set, Cloneable, Serializab
 ### 🎯 When to Use LinkedHashSet
 - When **insertion order matters**
 - Useful in **cache-based applications** 🗂️
+
+![alt text](LinkedHashSet2.png)
+
 
 ### 🔄 Difference: HashSet vs LinkedHashSet
 
@@ -82,6 +88,11 @@ SortedSet tailSet(Object fromElement);
 SortedSet subSet(Object fromElement, Object toElement);
 ```
 
+![alt text](SortedSet1.png)
+
+![alt text](SortedSet2.png)
+
+
 ---
 
 ## 🧭 NavigableSet
@@ -97,6 +108,8 @@ public interface NavigableSet extends SortedSet { }
 
 ### 🕰️ Introduced In
 - **Java SE 6**
+
+![alt text](NavigableSet.png)
 
 ### ✨ Properties
 - All properties of **SortedSet**
