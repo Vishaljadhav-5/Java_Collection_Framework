@@ -1,0 +1,37 @@
+=> Map interface in Java
+
+=> Abstract Design Pattern :
+-> It provides a way by which we dont have to implement all the methods of an interface, we just have to declare an abstract class which 
+    inherits the interface and in that abstract class we will override the methods of an interface. When we create a class which inherits 
+    the abstract class, then we dont need to override all the methods of interface.
+
+=> Map :-
+-> Map is an interface which is present in java.util package.
+-> Map does not inherit Collection interface.
+-> Syntax : public interface Map { - }.
+-> Map was introduced in JDK 1.2 version.
+
+-> Hierarchy of Map interface :-
+
+
+-> Properties of Map :-
+1. Map stores the data in key-value pair. Each key-value pair is known as Entry.
+2. In Map, keys should always unique but values can be duplicate.
+3. Map can store heterogeneous elements or different type of elements.
+4. In Map keys we can store maximum one null value but in values we can store any number of null values.
+5. Map does not follows the insertion order by default.
+6. Map does not follows the sorting order by default.
+
+-> Methods of Map interface :
+1. public Object put(Object key, Object value)
+2. public void putAll(Map map)
+3. public Object get(Object key)
+4. public Object remove(Object key)
+5. public void clear()
+6. public boolean isEmpty()
+7. public int size()
+8. public boolean containsKey(Object key)
+9. public boolean containsValue(Object value)
+10. public Set keySet();
+11. public Collection values();
+
