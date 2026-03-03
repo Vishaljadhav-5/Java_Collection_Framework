@@ -5,6 +5,18 @@
     inherits the interface and in that abstract class we will override the methods of an interface. When we create a class which inherits 
     the abstract class, then we dont need to override all the methods of interface.
 
+=> Benefits
+
+1. Enforces consistency among products.
+2. Makes switching product families easy.
+3. Promotes loose coupling.
+4. Follows Open/Closed Principle.
+
+-> Drawbacks
+
+1. More classes → more complexity.
+2. Harder to add new product type.
+
 => Map :-
 -> Map is an interface which is present in java.util package.
 -> Map does not inherit Collection interface.
