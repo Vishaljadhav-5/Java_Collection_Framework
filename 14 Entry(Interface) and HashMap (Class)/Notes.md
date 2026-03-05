@@ -21,11 +21,15 @@ interface Map {
 }
 ```
 
+![alt-text](1.png)
+
 ### 📝 Important Points
 - Every key–value pair in a Map is treated as one **Entry** 🔑➡️📦
 - Used internally by Map implementations like `HashMap`, `LinkedHashMap`, etc.
 
 ---
+
+![alt-text](2.png)
 
 ## 🔹 HashMap
 
@@ -67,6 +71,8 @@ public class HashMap<K,V> extends AbstractMap<K,V>
 
 1. Initial capacity = **16** 🪣
 2. Default load factor = **0.75 (75%)** 📈
+
+![alt-text](3.png)
 
 ---
 
